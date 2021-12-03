@@ -1,0 +1,110 @@
+
+<!-- DEVELOPER: Hope De Jesus, IS117-003, Fall 2021 --!>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content=""width="device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href = "style.css">
+    <link rel="icon" href="logo.png">
+    <title>Bready Or Not</title>
+
+</head>
+<body>
+<! --- navbar ----- !>
+<nav class ="navbar navbar-expand-lg navigation p-4">
+    <div class= "container">
+        <a href = "index.html" class="navbar-brand logotext"><h1><img class ="logo" src="logo.png" style="background-color: transparent" alt ="logo">Bready Or Not!</h1>
+            <p class = "text-white"><small>basic breads for a busy baker</small></p>
+        </a>
+
+
+        <button class = "navbar-toggler" type="button" data-bs-toggle ="collapse"
+                data-bs-target="#navmenu">
+
+            <span class = "navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class ="collapse navbar-collapse" id="navmenu">
+            <ul class = "navbar-nav ms-auto menus">
+                <li class = "nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+                <li class = "nav-item">
+                    <a href="foccacia.html" class="nav-link">Garlic Foccacia</a>
+                </li>
+                <li class = "nav-item">
+                    <a href="babka.html" class = "nav-link">Cinnamon Babka</a>
+                </li>
+                <li class = "nav-item">
+                    <a href="flatbread.html" class ="nav-link">Flat Bread</a>
+                </li>
+                <li class = "nav-item">
+                    <a href="basics.html" class="nav-link">Bread Basics</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<! --- navbar ----- !>
+
+<! --- padding only ----- !>
+<section id="steps">
+    <div class="pt-5"></div>
+</section>
+
+
+<! --- form ----- !>
+<p class = "lead text-center">Hungry for more? Fill out the form our monthly newsletter for new bread recipes sent to you every month. </p>
+
+<section id="form">
+    <div class ="container">
+        <form>
+            <div class="form-group pb-3">
+                <label for="first-name">First Name</label>
+                <input type="text" class="form-control" id="first-name"  placeholder="Enter first name">
+            </div>
+            <div class="form-group pb-3">
+                <label for="last-name">Last Name</label>
+                <input type="text" class="form-control" id="last-name"  placeholder="Enter last name">
+            </div>
+            <div class="form-group pb-3">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group pb-1">
+                <label for="comments">Any comments or suggestions?</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary button">Submit</button>
+        </form>
+    </div>
+
+</section>
+
+<! ----- footer ------- !>
+<div class="footer fixed-bottom">
+    <h4 class="lead text-center">  BreadyOrNot &copy 2021 Hope De Jesus | TOS | Privacy Statement</h4>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
+

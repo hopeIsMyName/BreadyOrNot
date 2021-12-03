@@ -1,0 +1,87 @@
+
+/*DEVELOPER: Hope De Jesus, IS117-003, Fall 2021 */
+
+/* ------  Body and Nav ------- */
+
+body{
+    background-color: #FFF9EC;
+}
+
+
+.logo{
+    height: 45px;
+    border: 0;
+    background: transparent;
+    padding-right: 6px;
+}
+
+.navigation{
+    background-color: #FCB1A6;
+
+}
+
+.logotext{
+    color: #5D2A42;
+}
+
+.nav-link{
+    color: #5D2A42;
+}
+
+.carousel{
+    width:150%;
+    padding-left: 5px;
+}
+
+
+/* ------  index ------- */
+.title{
+    color: #63030E;
+}
+.pics{
+    background-color: #FDCCC4;
+}
+
+.evenCard{
+    background-color: #FC8895;
+}
+
+.oddCard{
+    background-color: #FFF1EB;
+}
+
+
+.button{
+    background-color: #F94D61;
+    color: white;
+}
+
+.img {
+
+    height: 200px;
+    width: 200px;
+}
+
+/* ----- basic ------*/
+.kneads{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    height:500px;
+    margin-bottom: 1rem;
+}
+
+.yeast{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    height:600px;
+    margin-bottom: 1rem;
+}
+
+
+/* ------ footer ------*/
+.footer{
+    background-color: #88B4FC;
+    padding: 5px;
+}
